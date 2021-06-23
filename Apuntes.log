@@ -1,0 +1,65 @@
+
+░█████╗░██████╗░██╗░░░██╗███╗░░██╗████████╗███████╗░██████╗
+██╔══██╗██╔══██╗██║░░░██║████╗░██║╚══██╔══╝██╔════╝██╔════╝
+███████║██████╔╝██║░░░██║██╔██╗██║░░░██║░░░█████╗░░╚█████╗░
+██╔══██║██╔═══╝░██║░░░██║██║╚████║░░░██║░░░██╔══╝░░░╚═══██╗
+██║░░██║██║░░░░░╚██████╔╝██║░╚███║░░░██║░░░███████╗██████╔╝
+╚═╝░░╚═╝╚═╝░░░░░░╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░╚══════╝╚═════╝░
+################################ BIENVENIDOS A LA SECCIÓN DE APUNTES ################################
+
+------------- Directivas de microprocesador -------------
+
+#include <stdio.h>                  Librería de entrada y salida, <> busca en la bliblioteca
+#include "stdio.h"                  Librería de entrada y salida, "" busca en la bliblioteca
+
+------------- Operadores de dirección -------------
+&                                   Apunta a la variable donde será almacenada
+
+------------- Especificadores de Formato -------------
+
+Se debe especificar en el printf() y scanf();
+
+%c	    a single character
+%s	    a string
+%hi	    short (signed)
+%hu	    short (unsigned)
+%Lf	    long double
+%n	    prints nothing
+%d	    a decimal integer (assumes base 10)
+%i	    a decimal integer (detects the base automatically)
+%o	    an octal (base 8) integer
+%x	    a hexadecimal (base 16) integer
+%p	    an address (or pointer)
+%f	    a floating point number for floats
+%u	    int unsigned decimal
+%e	    a floating point number in scientific notation
+%E	    a floating point number in scientific notation
+%%	    the % symbol
+
+EXAMPLES
+
+    #include <stdio.h> 
+
+    int main() { 
+    char first_ch = 'f'; 
+    printf("%c\n", first_ch); 
+    return 0; 
+    }
+
+    OUTPUT
+    f
+
+------------- Secuencias de escape -------------
+
+Las secuencias de escape se utilizan para definir ciertos caracteres especiales dentro de cadenas de texto
+
+Código	Significado
+\n	Salto de línea
+\b	Retroceso
+\t	Tabulación horizontal
+\v	Tabulación vertical
+\\	Contrabarra
+\f	Salto de página
+\'	Apóstrofe
+\"	Comillas dobles
+\0	Fin de una cadena de caracteres
