@@ -87,3 +87,13 @@ for(i=1; i>10; i++)
 {
     printf("%i\n",i);
 }
+
+------------- Ciclo while - do while -------------
+while()     #Comprueba
+{
+    #Empieza ciclo
+{
+
+do{
+#Ejecuta
+}while();   #Comprueba
