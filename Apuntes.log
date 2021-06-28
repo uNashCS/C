@@ -97,3 +97,22 @@ while()     #Comprueba
 do{
 #Ejecuta
 }while();   #Comprueba
+
+
+------------- Swtich -------------
+swtich(caso)
+{
+    case 1;
+    break;
+    case 2:
+    break;
+    default:
+    break;
+}
+
+------------- Arreglos (array) -------------
+Arreglos 
+Guardar datos de un mismo tipo.
+Abrir el archivo 09-arreglos.c para mayor información.
+
+    int arreglo[4]={3,4,1,5};
