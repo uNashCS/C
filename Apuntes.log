@@ -13,7 +13,11 @@
 #include "stdio.h"                  Librería de entrada y salida, "" busca en la bliblioteca
 
 ------------- Operadores de dirección -------------
-&                                   Apunta a la variable donde será almacenada
+                                    Apunta a la dirección de la variable
+&var                                Apunta a la dirección de la variable var
+*                                   Crea una variable apuntador - Apuntador es un dirección que almacena otra dirección
+                                    Accede al contenido de la dirección que apunta
+                                    Abrir el archivo 13-apuntadores.c para mayor información.
 
 ------------- Especificadores de Formato -------------
 
